@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import texts from '../data/texts.json';
 
 class Header extends Component {
 
@@ -7,11 +8,6 @@ class Header extends Component {
 			super(props);
 
 			this.state = {
-				text: {
-					title: 'Collection 2016',
-	      	description: 'some cool text here about the new collection of design furniture 2016',
-					btnBuy: 'Buy now'
-				},
 				showMenuItens: false
 			};
 
@@ -36,9 +32,9 @@ class Header extends Component {
 						<div className="app-logo"></div>
 						<nav className="nav-bar">
 							<ul className={this.state.showMenuItens ? "nav-items-mobile" : "nav-items-mobile-off"}>
-								<li><a href="#">{'Home'}</a></li>
-								<li><a href="#">{'Products'}</a></li>
-								<li><a href="#">{'Contact'}</a></li>
+								<li><a href="#">{texts.menuHome}</a></li>
+								<li><a href="#">{texts.menuProducts}</a></li>
+								<li><a href="#">{texts.menuContact}</a></li>
 							</ul>
 							<div className="cart">
 								{this.props.items > 0 ? <span>{this.props.items}</span> : null}
@@ -52,9 +48,9 @@ class Header extends Component {
 
 						</nav>
 						<div className="banner-description">
-							<h2>{this.state.text.title}</h2>
-							<p>{this.state.text.description}</p>
-							<a href="#" className="btn-purple">{this.state.text.btnBuy}</a>
+							<h2>{texts.titleHeader}</h2>
+							<p>{texts.descriptionHeader}</p>
+							<a href="#" className="btn-purple">{texts.buyNow}</a>
 						</div>
 					</div>
         </div>

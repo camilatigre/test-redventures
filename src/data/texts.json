@@ -6,5 +6,10 @@
 	"type": "Type:",
 	"addItemSucessfully": "Item added to cart sucessfully!",
 	"aboutTitle": "About Us",
-	"aboutDescription": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+	"aboutDescription": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+	"menuHome":"Home",
+	"menuProducts":"Products",
+	"menuContact":"Contact",
+	"titleHeader": "Collection 2016",
+	"descriptionHeader": "some cool text here about the new collection of design furniture 2016"
 }
