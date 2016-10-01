@@ -1,0 +1,62 @@
+{
+		"new": [
+			{
+					"id": "1",
+	        "name": "Modern Black Armchair",
+	        "src": "https://i.imgsafe.org/d5463895d8.jpg",
+	        "price": "350,00",
+	        "category": ["armchair", "wood"]
+	    },
+			{
+					"id": "2",
+	        "name": "Modern Gray Armchair",
+	        "src": "https://i.imgsafe.org/d5464caaff.jpg",
+	        "price": "350,00",
+	        "category": ["armchair", "foam"]
+	    },
+			{
+					"id": "3",
+	        "name": "Light Blue Armchair",
+	        "src": "https://i.imgsafe.org/d54653d474.jpg",
+	        "price": "350,00",
+	        "category": ["armchair", "foam"]
+	    },
+			{
+					"id": "4",
+	        "name": "Black and Wood Armchair",
+	        "src": "https://i.imgsafe.org/d546659ade.jpg",
+	        "price": "350,00",
+	        "category": ["armchair", "wood"]
+	    }
+		],
+		"best": [
+			{
+					"id": "5",
+	        "name": "Wood Design Chair",
+	        "src": "https://i.imgsafe.org/d5468addea.jpg",
+	        "price": "150,00",
+	        "category": ["chair", "wood"]
+	    },
+			{
+					"id": "6",
+	        "name": "Premium Design Chair",
+	        "src": "https://i.imgsafe.org/d546736caa.jpg",
+	        "price": "150,00",
+	        "category": ["chair", "foam"]
+	    },
+			{
+					"id": "7",
+	        "name": "White and Wood Chair",
+	        "src": "https://i.imgsafe.org/d5468241de.jpg",
+	        "price": "150,00",
+	        "category": ["chair", "wood"]
+	    },
+			{
+					"id": "8",
+	        "name": "Black and Wood Chair",
+	        "src": "https://i.imgsafe.org/d5467bbec8.jpg",
+	        "price": "150,00",
+	        "category": ["chair", "wood"]
+	    }
+		]
+}

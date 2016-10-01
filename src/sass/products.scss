@@ -1,0 +1,124 @@
+.app-products {
+	.filters {
+		padding: 20px 0;
+		border-bottom: 1px solid $grey-border;
+		text-transform: uppercase;
+		position: relative;
+		span {
+			font-weight: bold;
+			color: $black;
+			margin-right: 5px;
+		}
+		.material {
+			position: absolute;
+			left:250px;
+			top:20px;
+			margin-right: 20px;
+		}
+		.checkbox {
+			display: inline;
+			margin-right: 20px;
+			color: $grey;
+		}
+		.checkbox-wood {
+			margin-left: 90px;
+		}
+		.see-all {
+			float: right;
+			cursor:pointer;
+		}
+	}
+	.content-products {
+		position: relative;
+		h3 {
+			font-size: 20px;
+			color: $grey;
+			text-align: center;
+		}
+		.product {
+			display: inline-block;
+			margin-right: 17px;
+			margin-bottom: 20px;
+			padding: 10px;
+			background: $white;
+			position: relative;
+			list-style: none;
+			transition: opacity .5s ease-in-out;
+	   -moz-transition: opacity .25s ease-in-out;
+	   -webkit-transition: opacity .25s ease-in-out;
+			&:hover {
+				box-shadow: 1px 4px 10px 5px rgba(203,203,203,0.75);
+				> .buy-now {
+					opacity: 1;
+				}
+			}
+			span {
+				display: list-item;
+				font-size: 12px;
+				color: $grey-title;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+			img {
+				display: list-item;
+			}
+			h4 {
+				font-size: 16px;
+				color: $grey;
+				text-align: center;
+			}
+			h5 {
+				font-size: 18px;
+				color: $black;
+				text-align: center;
+			}
+		}
+		.product:last-child {
+			margin-right: 0;
+		}
+		.product:nth-child(5),
+		.product:nth-child(6),
+		.product:nth-child(7),
+		.product:nth-child(8) {
+			margin-top: 80px;
+		}
+		.buy-now {
+			position: relative;
+			left:20%;
+			opacity: 0;
+			transition: opacity .5s ease-in-out;
+			cursor: pointer;
+		}
+	}
+}
+
+// the code is to specifiq forcing to use important - avoid !important this is not ideal
+@media (max-width: 600px) {
+	.product {
+		margin-left: 30px !important;
+	}
+	.product:nth-child(6),
+	.product:nth-child(7),
+	.product:nth-child(8) {
+		margin-top: 20px !important;
+	}
+
+	.filters {
+		padding-bottom: 40px !important;
+		.checkbox {
+			display: list-item !important;
+			list-style: none;
+		}
+		.checkbox-2 {
+			margin-top: 40px !important;
+			margin-left:0 !important;
+		}
+		.material {
+			left:0 !important;
+			top: 110px !important;
+		}
+		.see-all {
+			float: left !important;
+		}
+	}
+}

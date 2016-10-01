@@ -1,0 +1,22 @@
+.app-header {
+	background: url('../images/bg-header.jpg') center center no-repeat;
+	height: 100vh;
+	background-size: cover;
+	margin: 0;
+	.app-logo {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		border:10px solid $white;
+		margin: 20px;
+	}
+
+	.banner-description {
+		float: right;
+		text-align: left;
+		p {
+			color: $purple;
+			word-wrap: break-word;
+		}
+	}
+}
